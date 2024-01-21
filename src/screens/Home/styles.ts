@@ -37,11 +37,27 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center'
   },
+  disabledButton: {
+    width: 54,
+    height: 54,
+    borderRadius: 5,
+    backgroundColor: '#31CF67',
+    opacity: 0.4,
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
   form: {
     width: '100%',
     flexDirection: 'row',
     alignItems: 'center',
     marginTop: 16,
-    gap: 10
+    gap: 10,
+    marginBottom: 50
+  },
+  emptyListText: {
+    color: "#fff",
+    textAlign: 'center',
+    fontSize: 16,
+    fontWeight: 'bold'
   }
 })
